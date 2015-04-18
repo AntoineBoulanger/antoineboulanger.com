@@ -8,17 +8,73 @@
 
 		<meta name="theme-color" content="#ffffff">
 		
-		<title>Antoine Boulanger</title>
+		<title>{{ title }}</title>
 
 		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 		<link rel="icon" href="images/favicon.png">
 
+		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+
 		<link rel="stylesheet" href="styles/main.css">
 	</head>
 	<body>
-		
+		<header class="c-header">
+			{% for header in header %}
+			<div class="o-grid">
+				<div class="o-grid_header">
+					<h1 class="c-header_name">{{ header.name }}</h1>
+				</div>
+				<div class="o-grid_main">
+					<h2 class="c-header_title">{{ header.title }}</h2>
+				</div>
+			</div>
+			{% endfor %}
+		</header>
 
-		<script src="scripts/main.js"></script>
+		<main class="c-main">
+			{% for section in main %}
+			<section class="c-main_section">
+				<div class="o-grid">
+					<header class="o-grid_header">
+						<h3 class="c-main_heading">{{ section.title }}</h3>
+						{% if section.details %}
+						{% for detail in section.details %}
+						<a class="c-main_details u-{{ detail.class }}" href="{{ detail.url }}">
+							{{ detail.name }}
+						</a>
+						{% endfor %}
+						{% endif %}
+					</header>
+					<div class="o-grid_main">
+						<ul class="c-main_list">
+							{% for item in section.content %}
+							<li class="c-main_item">
+								<a class="c-main_link u-{{ item.class }}" href="{{ item.url }}">
+									<span class="o-grid">
+										<span class="o-grid_half">
+											<span class="c-main_name">{{ item.name }}</span>
+										</span>
+										<span class="o-grid_half">
+											<span class="c-main_url">{{ item.url }}</span>
+										</span>
+									</span>
+								</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</section>
+			{% endfor %}
+		</main>
+
+		<footer class="c-footer">
+			{% for footer in footer %}
+			<a class="c-footer_link u-{{ footer.class }}" href="{{ footer.url }}">
+				{{ footer.name }}
+			</a>
+			{% endfor %}
+		</footer>
 
 		<!-- <script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

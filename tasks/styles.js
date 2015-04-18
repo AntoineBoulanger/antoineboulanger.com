@@ -8,6 +8,10 @@ gulp.task('styles', function () {
 		.pipe(less({
 			strictMath: true
 		}))
+		.on('error', function(err) {
+	    	console.log(err.toString());
+ 			this.emit('end');
+	    })
 		.pipe(autoprefixer({
 			browsers: ['last 2 versions'],
 			cascade: false
