@@ -48,7 +48,7 @@
 						<ul class="c-main_list">
 							{% for item in section.content %}
 							<li class="c-main_item">
-								<a class="c-main_link u-{{ item.class }}" href="{{ item.url }}">
+								<a class="c-main_link u-{{ item.class }}" href="{% if item.name == 'Email' %}mailto:{% endif %}{{ item.url }}">
 									<span class="o-grid">
 										<span class="o-grid_half">
 											<span class="c-main_name">{{ item.name }}</span>
