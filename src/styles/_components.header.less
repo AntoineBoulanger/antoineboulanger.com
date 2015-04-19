@@ -2,11 +2,32 @@
    Header
    ========================================================================== */
 .c-header {
-	margin-bottom: 4%;
-	padding: 2% 0;
+	padding: 2.5% 0;
+
+	@media (max-width: @to-small) {
+		margin-bottom: 8%;
+	}
+
+	@media (min-width: @from-small) and (max-width: @to-medium) {
+		margin-bottom: 5%;
+	}
+
+	@media (min-width: @from-medium) and (max-width: @to-huge) {
+		margin-bottom: 4%;
+	}
+
+	@media (min-width: @from-huge) {
+		margin-bottom: 4.5%;
+	}
 
 	.o-grid {
-		align-items: baseline;
+		@media (min-width: @from-medium) and (max-width: @to-large) {
+			align-items: flex-end;
+		}
+
+		@media (min-width: @from-large) {
+			align-items: baseline;
+		}
 	}
 }
 
@@ -20,4 +41,8 @@
 	color: lighten(@black, 15%);
 	font-weight: @normal;
 	font-size: @h3;
+
+	@media (min-width: @from-medium) and (max-width: @to-large) {
+		margin-bottom: 4px;
+	}
 }

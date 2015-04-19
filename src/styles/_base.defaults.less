@@ -7,7 +7,21 @@ html {
 }
 
 body {
-	padding: 0 5%;
+	@media (max-width: @to-small) {
+		padding: 4% 8%;
+	}
+
+	@media (min-width: @from-small) and (max-width: @to-medium) {
+		padding: 2% 5%;
+	}
+
+	@media (min-width: @from-medium) and (max-width: @to-huge) {
+		padding: 0 3%;
+	}
+
+	@media (min-width: @from-huge) {
+		padding: 0 5%;
+	}
 }
 
 ::selection {
