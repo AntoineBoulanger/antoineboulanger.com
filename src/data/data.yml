@@ -1,72 +1,74 @@
 title: Antoine Boulanger, Front-end Developer
 
+
 header:
- - name: Antoine Boulanger
-   title: Front-end Developer
+  - name: Antoine Boulanger
+    title: Front-end Developer
+
 
 main:
- - title: Projects
-   content:
-    - name: Minimal CSS
-      url: https://github.com/minimalcss
-      class: minimal
+  - title: Projects
+    content:
+      - name: Minimal CSS
+        url: https://github.com/minimalcss
+        class: minimal
 
- - title: Work
-   details: 
-    - name: 6 Awwwards
-      url: http://www.awwwards.com/
-      class: awwwards
+  - title: Work
+    details: 
+      - name: 6 Awwwards
+        url: http://www.awwwards.com/
+        class: awwwards
+    content:
+      - name: Compulsion Games
+        url: http://compulsiongames.com
+        class: compulsion
 
-   content:
-    - name: Compulsion Games
-      url: http://compulsiongames.com
-      class: compulsion
+      - name: Normand Robert
+        url: http://normandrobert.com
+        class: normand
 
-    - name: Normand Robert
-      url: http://normandrobert.com
-      class: normand
+      - name: UPA du Québec
+        url: http://www.upa.qc.ca/en/
+        class: upa
 
-    - name: UPA du Québec
-      url: http://www.upa.qc.ca/en/
-      class: upa
+      - name: MAS Industries
+        url: http://mas-industries.com
+        class: mas
 
-    - name: MAS Industries
-      url: http://mas-industries.com
-      class: mas
+      - name: Antoine Laoun
+        url: http://antoinelaoun.com/en/
+        class: laoun
 
-    - name: Antoine Laoun
-      url: http://antoinelaoun.com/en/
-      class: laoun
+  - title: Follow
+    content:
+      - name: Twitter
+        url: https://twitter.com/_nto1ne
+        class: twitter
+      
+      - name: Instagram
+        url: https://instagram.com/_nto1ne
+        class: instagram
+  
+      - name: Google+
+        url: https://plus.google.com/u/0/+AntoineBoulanger
+        class: googleplus
+  
+      - name: LinkedIn
+        url: https://www.linkedin.com/in/boulangerantoine
+        class: linkedin
+  
+      - name: GitHub
+        url: https://github.com/AntoineBoulanger
+        class: github
 
- - title: Follow
-   content:
-    - name: Twitter
-      url: https://twitter.com/_nto1ne
-      class: twitter
+  - title: Contact
+    content:
+      - name: Email
+        url: hello@antoineboulanger.com
+        class: email
 
-    - name: Instagram
-      url: https://instagram.com/_nto1ne
-      class: instagram
-
-    - name: Google+
-      url: https://plus.google.com/u/0/+AntoineBoulanger
-      class: googleplus
-
-    - name: LinkedIn
-      url: https://www.linkedin.com/in/boulangerantoine
-      class: linkedin
-
-    - name: GitHub
-      url: https://github.com/AntoineBoulanger
-      class: github
-
- - title: Contact
-   content:
-    - name: Email
-      url: hello@antoineboulanger.com
-      class: email
 
 footer:
- - name: View on GitHub
-   url: https://github.com/AntoineBoulanger/antoineboulanger.com
-   class: github
+  - name: View on GitHub
+    url: https://github.com/AntoineBoulanger/antoineboulanger.com
+    class: github
