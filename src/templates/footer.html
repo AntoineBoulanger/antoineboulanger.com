@@ -1,0 +1,7 @@
+<footer class="c-footer">
+	{% for footer in footer %}
+	<a class="c-footer_link u-{{ footer.class }}" href="{{ footer.url }}">
+		{{ footer.name }}
+	</a>
+	{% endfor %}
+</footer>

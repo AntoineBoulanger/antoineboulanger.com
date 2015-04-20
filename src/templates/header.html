@@ -1,0 +1,12 @@
+<header class="c-header">
+	{% for header in header %}
+	<div class="o-grid">
+		<div class="o-grid_header">
+			<h1 class="c-header_name">{{ header.name }}</h1>
+		</div>
+		<div class="o-grid_main">
+			<h2 class="c-header_title">{{ header.title }}</h2>
+		</div>
+	</div>
+	{% endfor %}
+</header>
