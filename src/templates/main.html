@@ -2,39 +2,39 @@
 
 {% block main %}
 <main class="c-main">
-	{% for section in page %}
-	<section class="c-main_section">
-		<div class="o-grid">
-			<header class="o-grid_header">
-				<h3 class="c-main_heading">{{ section.title }}</h3>
-				{% if section.details %}
-				{% for detail in section.details %}
-				<a class="c-main_details u-{{ detail.class }}" href="{{ detail.url }}">
-					{{ detail.name }}
-				</a>
-				{% endfor %}
-				{% endif %}
-			</header>
-			<div class="o-grid_main">
-				<ul class="c-main_list">
-					{% for item in section.content %}
-					<li class="c-main_item">
-						<a class="c-main_link u-{{ item.class }}" href="{% if item.name == 'Email' %}mailto:{% endif %}{{ item.url }}">
-							<span class="o-grid">
-								<span class="o-grid_half">
-									<span class="c-main_name">{{ item.name }}</span>
-								</span>
-								<span class="o-grid_half">
-									<span class="c-main_url">{{ item.url }}</span>
-								</span>
-							</span>
-						</a>
-					</li>
-					{% endfor %}
-				</ul>
-			</div>
-		</div>
-	</section>
-	{% endfor %}
+    {% for section in page %}
+    <section class="c-main_section">
+        <div class="o-grid">
+            <header class="o-grid_header">
+                <h3 class="c-main_heading">{{ section.title }}</h3>
+                {% if section.details %}
+                {% for detail in section.details %}
+                <a class="c-main_details u-{{ detail.class }}" href="{{ detail.url }}">
+                    {{ detail.name }}
+                </a>
+                {% endfor %}
+                {% endif %}
+            </header>
+            <div class="o-grid_main">
+                <ul class="c-main_list">
+                    {% for item in section.content %}
+                    <li class="c-main_item">
+                        <a class="c-main_link u-{{ item.class }}" href="{% if item.name == 'Email' %}mailto:{% endif %}{{ item.url }}">
+                            <span class="o-grid">
+                                <span class="o-grid_half">
+                                    <span class="c-main_name">{{ item.name }}</span>
+                                </span>
+                                <span class="o-grid_half">
+                                    <span class="c-main_url">{{ item.url }}</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+    {% endfor %}
 </main>
 {% endblock %}
