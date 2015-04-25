@@ -6,7 +6,7 @@ header:
     title: Front-end Developer
 
 
-main:
+home:
   - title: Projects
     content:
       - name: Minimal CSS
