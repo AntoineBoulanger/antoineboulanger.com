@@ -2,39 +2,39 @@
    Base
    ========================================================================== */
 html {
-	font-size: @font-size;
-	font-family: @font-family;
+    font-size: @font-size;
+    font-family: @font-family;
 }
 
 body {
-	@media (max-width: @to-small) {
-		padding: 4% 8%;
-	}
+    @media (max-width: @to-small) {
+        padding: 4% 8%;
+    }
 
-	@media (min-width: @from-small) and (max-width: @to-medium) {
-		padding: 2% 5%;
-	}
+    @media (min-width: @from-small) and (max-width: @to-medium) {
+        padding: 2% 5%;
+    }
 
-	@media (min-width: @from-medium) and (max-width: @to-huge) {
-		padding: 0 3%;
-	}
+    @media (min-width: @from-medium) and (max-width: @to-huge) {
+        padding: 0 3%;
+    }
 
-	@media (min-width: @from-huge) {
-		padding: 0 5%;
-	}
+    @media (min-width: @from-huge) {
+        padding: 0 5%;
+    }
 }
 
 ::selection {
-	background: @gray;
-	color: @white;
-	text-shadow: none;
+    background: @gray;
+    color: @white;
+    text-shadow: none;
 }
 
 a {
-	color: @black;
-	text-decoration: none;
+    color: @black;
+    text-decoration: none;
 }
 
 li {
-	line-height: 2;
+    line-height: 2;
 }

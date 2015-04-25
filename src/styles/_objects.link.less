@@ -2,27 +2,27 @@
    Link
    ========================================================================== */
 #o-link {
-	position: relative;
-	display: inline-block;
-	transition: color @slow-speed;
+    position: relative;
+    display: inline-block;
+    transition: color @slow-speed;
 
-	&:after {
-		position: absolute;
-		right: 0;
-		bottom: 4px;
-		left: 0;
-		height: 1px;
-		content: "";
-		opacity: 0;
-		transition: transform @slow-speed, opacity @slow-speed, background-color @slow-speed;
-		transform: scaleX(0);
-		transform-origin: center left;
-	}
+    &:after {
+        position: absolute;
+        right: 0;
+        bottom: 4px;
+        left: 0;
+        height: 1px;
+        content: "";
+        opacity: 0;
+        transition: transform @slow-speed, opacity @slow-speed, background-color @slow-speed;
+        transform: scaleX(0);
+        transform-origin: center left;
+    }
 
-	&:hover {
-		&:after {
-			opacity: 1;
-			transform: scaleX(1);
-		}
-	}
+    &:hover {
+        &:after {
+            opacity: 1;
+            transform: scaleX(1);
+        }
+    }
 }

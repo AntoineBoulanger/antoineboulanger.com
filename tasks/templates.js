@@ -7,16 +7,16 @@ var fs   = require('fs');
 var browserSync = require('browser-sync');
 
 gulp.task('templates', function() {
-	var filter = gulpFilter(['*', '!src/templates']);
+    var filter = gulpFilter(['*', '!src/templates']);
 
-	return gulp.src('src/**/*.html')
-	    .pipe(data(function(file) {
-	    	return yaml.safeLoad(fs.readFileSync('src/data/data.yml', 'utf8'));
-	    }))
-	    .pipe(swig({
-	    	defaults: { cache: false }
-	    }))
-	    .pipe(filter)
-	    .pipe(gulp.dest('.tmp'))
-	    .pipe(browserSync.reload({stream: true}));
+    return gulp.src('src/**/*.html')
+        .pipe(data(function(file) {
+            return yaml.safeLoad(fs.readFileSync('src/data/data.yml', 'utf8'));
+        }))
+        .pipe(swig({
+            defaults: { cache: false }
+        }))
+        .pipe(filter)
+        .pipe(gulp.dest('.tmp'))
+        .pipe(browserSync.reload({stream: true}));
 });
