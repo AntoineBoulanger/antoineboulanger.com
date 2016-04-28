@@ -4,7 +4,7 @@
 #o-link {
     position: relative;
     display: inline-block;
-    transition: color @slow-speed;
+    transition: color @slow-speed @easing;
 
     &:after {
         position: absolute;
@@ -14,7 +14,7 @@
         height: 1px;
         content: "";
         opacity: 0;
-        transition: transform @slow-speed, opacity @slow-speed, background-color @slow-speed;
+        transition: transform @slow-speed @easing, opacity @slow-speed @easing, background-color @slow-speed @easing;
         transform: scaleX(0);
         transform-origin: center left;
     }

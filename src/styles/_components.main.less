@@ -123,7 +123,7 @@
 .c-main_name {
     display: block;
     color: lighten(@black, 30%);
-    transition: transform @speed, color @slow-speed;
+    transition: transform @speed @easing, color @slow-speed @easing;
     transform: translateX(-19px);
 
     &:before {
@@ -131,7 +131,7 @@
         width: 19px;
         content: "-\00a0";
         opacity: 0;
-        transition: transform @speed, opacity @speed, color @slow-speed;
+        transition: transform @speed @easing, opacity @speed @easing, color @slow-speed @easing;
         transform: scaleX(0);
     }
 }

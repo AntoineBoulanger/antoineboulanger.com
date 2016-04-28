@@ -15,21 +15,33 @@ home:
 
   - title: Work
     details:
-      - name: 6 Awwwards
-        url: http://www.awwwards.com/
+      - name: 8 Awwwards
+        url: http://www.awwwards.com/locomotive/portfolio
         class: awwwards
     content:
-      - name: Compulsion Games
-        url: http://compulsiongames.com
-        class: compulsion
+      - name: Locomotive
+        url: https://locomotive.ca/en
+        class: locomotive
+
+      - name: Parcours Canada
+        url: http://parcourscanada.com/
+        class: parcours
+
+      - name: Town of Pincourt
+        url: http://www.villepincourt.qc.ca/en/1/home
+        class: pincourt
+
+      - name: Casa Grecque
+        url: http://casagrecque.ca/Home-en-1
+        class: casa
 
       - name: Normand Robert
         url: http://normandrobert.com
         class: normand
 
-      - name: Wakanim
-        url: http://www.wakanim.tv
-        class: wakanim
+      - name: Compulsion Games
+        url: http://compulsiongames.com
+        class: compulsion
 
       - name: Swimming Canada
         url: https://www.swimming.ca/en/
@@ -49,17 +61,13 @@ home:
 
   - title: Follow
     content:
-      - name: Twitter
-        url: https://twitter.com/_nto1ne
-        class: twitter
-
       - name: Instagram
         url: https://instagram.com/_nto1ne
         class: instagram
 
-      - name: Google+
-        url: https://plus.google.com/u/0/+AntoineBoulanger
-        class: googleplus
+      - name: Twitter
+        url: https://twitter.com/_nto1ne
+        class: twitter
 
       - name: LinkedIn
         url: https://www.linkedin.com/in/boulangerantoine
