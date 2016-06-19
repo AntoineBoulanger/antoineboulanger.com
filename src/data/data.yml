@@ -7,21 +7,22 @@ header:
 
 
 home:
-  - title: Projects
-    content:
-      - name: Minimal CSS
-        url: https://github.com/minimalcss
-        class: minimal
-
   - title: Work
     details:
-      - name: 8 Awwwards
+      - name: 2 Awwwards
         url: http://www.awwwards.com/locomotive/portfolio
         class: awwwards
+      - name: 1 FWA
+        url: https://thefwa.com/cases/locomotive
+        class: fwa
     content:
       - name: Locomotive
         url: https://locomotive.ca/en
         class: locomotive
+
+      - name: Micanan
+        url: http://micanan.com/
+        class: micanan
 
       - name: Parcours Canada
         url: http://parcourscanada.com/
@@ -30,6 +31,10 @@ home:
       - name: Town of Pincourt
         url: http://www.villepincourt.qc.ca/en/1/home
         class: pincourt
+
+      - name: DHC Avocats
+        url: http://dhcavocats.ca/
+        class: dhc
 
       - name: Casa Grecque
         url: http://casagrecque.ca/Home-en-1
