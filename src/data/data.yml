@@ -9,16 +9,25 @@ header:
 home:
   - title: Work
     details:
-      - name: 2 Awwwards
-        url: http://www.awwwards.com/locomotive/portfolio
+      - name: 4 Awwwards
+        url: http://www.awwwards.com/baker/collections/sotd/
         class: awwwards
-      - name: 1 FWA
-        url: https://thefwa.com/cases/locomotive
-        class: fwa
     content:
+      - name: Pomerleau
+        url: http://pomerleau.ca
+        class: pomerleau
+
       - name: Locomotive
         url: https://locomotive.ca/en
         class: locomotive
+
+      - name: InterGlobal Exhibits
+        url: http://www.igegroup.com
+        class: ige
+
+      - name: Ville de Saint-Constant
+        url: https://saint-constant.ca
+        class: stconstant
 
       - name: Micanan
         url: http://micanan.com/
@@ -52,26 +61,14 @@ home:
         url: https://www.swimming.ca/en/
         class: swimming
 
-      - name: UPA du Québec
-        url: http://www.upa.qc.ca/en/
-        class: upa
-
-      - name: MAS Industries
-        url: http://mas-industries.com
-        class: mas
-
-      - name: Antoine Laoun
-        url: http://antoinelaoun.com/en/
-        class: laoun
-
   - title: Follow
     content:
       - name: Instagram
-        url: https://instagram.com/baker_______
+        url: https://instagram.com/nobake
         class: instagram
 
       - name: Twitter
-        url: https://twitter.com/baker_______
+        url: https://twitter.com/_nobake
         class: twitter
 
       - name: LinkedIn
