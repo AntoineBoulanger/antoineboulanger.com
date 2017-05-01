@@ -9,13 +9,17 @@ header:
 home:
   - title: Work
     details:
-      - name: 4 Awwwards
+      - name: 5 Awwwards
         url: http://www.awwwards.com/baker/collections/sotd/
         class: awwwards
     content:
       - name: Pomerleau
         url: http://pomerleau.ca
         class: pomerleau
+
+      - name: Kvell
+        url: https://kvellhome.com
+        class: kvell
 
       - name: Locomotive
         url: https://locomotive.ca/en
