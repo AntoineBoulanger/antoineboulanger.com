@@ -68,11 +68,11 @@ home:
   - title: Follow
     content:
       - name: Instagram
-        url: https://instagram.com/nobake
+        url: https://instagram.com/ofbake
         class: instagram
 
       - name: Twitter
-        url: https://twitter.com/_nobake
+        url: https://twitter.com/ofbake
         class: twitter
 
       - name: LinkedIn
