@@ -7,19 +7,43 @@ header:
 
 
 home:
+  - title: Projects
+    content:
+      - name: modularBP
+        url: https://github.com/modularorg/modularbp
+        class: modularbp
+      - name: modularJS
+        url: https://github.com/modularorg/modularjs
+        class: modularjs
+      - name: modularCSS
+        url: https://github.com/modularorg/modularcss
+        class: modularcss
+
   - title: Work
     details:
-      - name: 5 Awwwards
+      - name: 8 Awwwards
         url: http://www.awwwards.com/baker/collections/sotd/
         class: awwwards
     content:
-      - name: Pomerleau
-        url: http://pomerleau.ca
-        class: pomerleau
+      - name: Hop Deco
+        url: https://hopdeco.ca
+        class: hopdeco
+
+      - name: The English Bus
+        url: https://theenglishbus.com
+        class: englishbus
+
+      - name: Green Beaver
+        url: https://greenbeaver.com
+        class: greenbeaver
 
       - name: Kvell
         url: https://kvellhome.com
         class: kvell
+
+      - name: Pomerleau
+        url: https://pomerleau.ca
+        class: pomerleau
 
       - name: Locomotive
         url: https://locomotive.ca/en
@@ -33,37 +57,9 @@ home:
         url: https://saint-constant.ca
         class: stconstant
 
-      - name: Micanan
-        url: http://micanan.com/
-        class: micanan
-
       - name: Parcours Canada
         url: http://parcourscanada.com/
         class: parcours
-
-      - name: Town of Pincourt
-        url: http://www.villepincourt.qc.ca/en/1/home
-        class: pincourt
-
-      - name: DHC Avocats
-        url: http://dhcavocats.ca/
-        class: dhc
-
-      - name: Casa Grecque
-        url: http://casagrecque.ca/Home-en-1
-        class: casa
-
-      - name: Normand Robert
-        url: http://normandrobert.com
-        class: normand
-
-      - name: Compulsion Games
-        url: http://compulsiongames.com
-        class: compulsion
-
-      - name: Swimming Canada
-        url: https://www.swimming.ca/en/
-        class: swimming
 
   - title: Follow
     content:
