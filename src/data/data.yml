@@ -11,20 +11,34 @@ home:
     content:
       - name: modularBP
         url: https://github.com/modularorg/modularbp
-        class: modularbp
+        class: modular
       - name: modularJS
         url: https://github.com/modularorg/modularjs
-        class: modularjs
+        class: modular
       - name: modularCSS
         url: https://github.com/modularorg/modularcss
-        class: modularcss
+        class: modular
+      - name: modularLoad
+        url: https://github.com/modularorg/modularload
+        class: modular
+      - name: modularScroll
+        url: https://github.com/modularorg/modularscroll
+        class: modular
 
   - title: Work
     details:
-      - name: 8 Awwwards
-        url: http://www.awwwards.com/baker/collections/sotd/
+      - name: 18 Awwwards
+        url: https://www.awwwards.com/baker/collections/
         class: awwwards
     content:
+      - name: Locomotive
+        url: https://locomotive.ca/en
+        class: locomotive
+
+      - name: Muraflex
+        url: https://muraflex.com/en
+        class: muraflex
+
       - name: Hop Deco
         url: https://hopdeco.ca
         class: hopdeco
@@ -45,21 +59,9 @@ home:
         url: https://pomerleau.ca
         class: pomerleau
 
-      - name: Locomotive
-        url: https://locomotive.ca/en
-        class: locomotive
-
-      - name: InterGlobal Exhibits
-        url: http://www.igegroup.com
-        class: ige
-
-      - name: Ville de Saint-Constant
-        url: https://saint-constant.ca
-        class: stconstant
-
-      - name: Parcours Canada
-        url: http://parcourscanada.com/
-        class: parcours
+      - name: Ville de Mirabel
+        url: https://ville.mirabel.qc.ca
+        class: mirabel
 
   - title: Follow
     content:
