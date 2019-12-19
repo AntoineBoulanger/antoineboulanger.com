@@ -27,10 +27,14 @@ home:
 
   - title: Work
     details:
-      - name: 18 Awwwards
+      - name: 23 Awwwards
         url: https://www.awwwards.com/baker/collections/
         class: awwwards
     content:
+      - name: Editorial New
+        url: https://editorialnew.com
+        class: editorial
+
       - name: Locomotive
         url: https://locomotive.ca/en
         class: locomotive
