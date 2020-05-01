@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="theme-color" content="#ffffff">
-        
+
         <title>{{ title }}</title>
 
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -16,13 +16,13 @@
 
         <link rel="stylesheet" href="styles/main.css">
     </head>
-    <body>  
+    <body>
         {% block header %}
             {% include "header.html" %}
         {% endblock %}
 
         {% block main %}{% endblock %}
-        
+
         {% block footer %}
             {% include "footer.html" %}
         {% endblock %}

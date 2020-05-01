@@ -1,0 +1,23 @@
+{
+  "src": "./src/",
+  "dest": "./docs/",
+  "build": "./build/",
+  "styles": {
+    "src": "./src/styles/",
+    "dest": "./docs/styles/",
+    "main": "main"
+  },
+  "scripts": {
+    "src": "./src/scripts/",
+    "dest": "./docs/scripts/",
+    "main": "main"
+  },
+  "svgs": {
+    "src": "./src/images/sprite/",
+    "dest": "./docs/images/"
+  },
+  "views": {
+    "src": "./src/",
+    "partials": "./src/partials/"
+  }
+}

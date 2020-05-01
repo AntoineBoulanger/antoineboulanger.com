@@ -1,9 +1,9 @@
-title: Antoine Boulanger, Front-end Developer
+title: Antoine Boulanger, Front-end Engineer
 
 
 header:
   - name: Antoine Boulanger
-    title: Front-end Developer
+    title: Front-end Engineer
 
 
 home:
@@ -73,6 +73,10 @@ home:
         url: https://twitter.com/baker________
         class: twitter
 
+      - name: Medium
+        url: https://medium.com/@antoineboulanger
+        class: medium
+
       - name: GitHub
         url: https://github.com/antoineboulanger
         class: github
@@ -80,10 +84,6 @@ home:
       - name: LinkedIn
         url: https://www.linkedin.com/in/boulangerantoine
         class: linkedin
-
-      - name: Instagram
-        url: https://instagram.com/baker_______________
-        class: instagram
 
   - title: Contact
     content:

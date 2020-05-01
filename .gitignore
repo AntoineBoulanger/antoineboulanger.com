@@ -1,5 +1,2 @@
 node_modules
-.tmp
-.publish
-dist
 .DS_Store
