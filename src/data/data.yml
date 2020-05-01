@@ -39,6 +39,10 @@ home:
         url: https://locomotive.ca/en
         class: locomotive
 
+      - name: Paratech
+        url: https://paratech.com
+        class: paratech
+
       - name: Muraflex
         url: https://muraflex.com/en
         class: muraflex
@@ -63,27 +67,23 @@ home:
         url: https://pomerleau.ca
         class: pomerleau
 
-      - name: Ville de Mirabel
-        url: https://ville.mirabel.qc.ca
-        class: mirabel
-
   - title: Follow
     content:
-      - name: Instagram
-        url: https://instagram.com/ofbake
-        class: instagram
-
       - name: Twitter
-        url: https://twitter.com/ofbake
+        url: https://twitter.com/baker________
         class: twitter
+
+      - name: GitHub
+        url: https://github.com/antoineboulanger
+        class: github
 
       - name: LinkedIn
         url: https://www.linkedin.com/in/boulangerantoine
         class: linkedin
 
-      - name: GitHub
-        url: https://github.com/AntoineBoulanger
-        class: github
+      - name: Instagram
+        url: https://instagram.com/baker_______________
+        class: instagram
 
   - title: Contact
     content:

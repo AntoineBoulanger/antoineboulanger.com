@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 
-gulp.task('serve', ['styles', 'templates'], function() {
+gulp.task('serve', function() {
     browserSync({
         notify: false,
         port: 3000,
